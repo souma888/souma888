@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="265" viewBox="0 0 1200 265" role="img" aria-label="Soumadip Karan - building practical software at the intersection of engineering and AI">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#0C1224"/>
+      <stop offset="0.58" stop-color="#11152C"/>
+      <stop offset="1" stop-color="#211743"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" x2="1">
+      <stop stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.9"/>
+    </linearGradient>
+    <pattern id="dots" width="29" height="29" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#A78BFA" opacity=".13"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="265" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="265" rx="18" fill="url(#dots)"/>
+  <path d="M 804 -10 Q 1020 95 1240 5 M 835 24 Q 1050 130 1220 60 M 857 72 Q 1050 177 1240 112 M 875 118 Q 1070 219 1235 166" fill="none" stroke="url(#stroke)" stroke-opacity=".18" stroke-width="2"/>
+  <rect x="50" y="46" width="5" height="172" rx="2" fill="url(#stroke)"/>
+  <text x="82" y="84" fill="#A5B4FC" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="4">HELLO, I'M</text>
+  <text x="80" y="149" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Soumadip Karan</text>
+  <text x="84" y="192" fill="#CAD5E6" font-family="Arial, Helvetica, sans-serif" font-size="22">Software Development  ·  AI/ML  ·  Scientific Computing</text>
+  <text x="84" y="224" fill="#93A4BC" font-family="Arial, Helvetica, sans-serif" font-size="16">Engineering Undergraduate  |  IIT Mandi</text>
+  <g fill="none" stroke="#9575E7" stroke-width="2" opacity=".45">
+    <rect x="1004" y="58" width="92" height="92" rx="13" transform="rotate(16 1050 104)"/>
+    <circle cx="1060" cy="115" r="31"/>
+    <path d="M1037 110 l16 17 31 -33"/>
+  </g>
+</svg>
