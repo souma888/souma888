@@ -1,7 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="158" viewBox="0 0 960 158" role="img" aria-label="GitHub metrics placeholder; run workflow to generate activity metrics">
- <rect width="960" height="158" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
- <circle cx="43" cy="50" r="7" fill="#8b5cf6"/>
- <text x="63" y="57" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#f0f6fc">Extended GitHub metrics</text>
- <text x="42" y="96" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#aab9cd">Ready to configure — add METRICS_TOKEN and run the GitHub Metrics workflow.</text>
- <text x="42" y="127" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#7b8798">Once enabled, the workflow replaces this placeholder with live activity data.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="355" viewBox="0 0 1200 355" role="img" aria-labelledby="title desc">
+<title id="title">Public repository dashboard</title>
+<desc id="desc">Owned public repositories, stars, forks, and language share by code bytes. Private repositories and forks are excluded.</desc>
+<rect x="1" y="1" width="1198" height="353" rx="16" fill="#101720" stroke="#293445"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="36" y="41" fill="#71E4C2" font-family="Consolas, monospace" font-size="12" letter-spacing="2">PUBLIC REPOSITORY SNAPSHOT</text>
+<text x="1164" y="41" text-anchor="end" fill="#93A4BC" font-size="12">UPDATED 08 NOV 2026 / UTC</text>
+<text x="36" y="113" fill="#F0F3FA" font-size="42" font-weight="600">07</text>
+<text x="36" y="142" fill="#93A4BC" font-size="12" letter-spacing="1.5">REPOSITORIES</text>
+<text x="327" y="113" fill="#F0F3FA" font-size="42" font-weight="600">00</text>
+<text x="327" y="142" fill="#93A4BC" font-size="12" letter-spacing="1.5">STARS</text>
+<text x="618" y="113" fill="#F0F3FA" font-size="42" font-weight="600">00</text>
+<text x="618" y="142" fill="#93A4BC" font-size="12" letter-spacing="1.5">FORKS</text>
+<text x="909" y="113" fill="#F0F3FA" font-size="42" font-weight="600">06</text>
+<text x="909" y="142" fill="#93A4BC" font-size="12" letter-spacing="1.5">LANGUAGES</text>
+<path d="M36 169H1164" stroke="#293445"/>
+<text x="36" y="207" fill="#DFE5EF" font-size="17" font-weight="600">Languages across my public code</text>
+<defs><clipPath id="bar"><rect x="36" y="229" width="1128" height="14" rx="7"/></clipPath></defs><g clip-path="url(#bar)">
+<rect x="36.000" y="229" width="351.308" height="14" fill="#71E4C2"/>
+<rect x="387.308" y="229" width="257.966" height="14" fill="#9FAEFF"/>
+<rect x="645.274" y="229" width="189.863" height="14" fill="#EBCB8B"/>
+<rect x="835.136" y="229" width="142.396" height="14" fill="#ED9EBC"/>
+<rect x="977.532" y="229" width="139.303" height="14" fill="#74B9EE"/>
+<rect x="1116.835" y="229" width="47.165" height="14" fill="#C5A3ED"/>
+</g>
+<circle cx="41" cy="274" r="5" fill="#71E4C2"/>
+<text x="56" y="279" fill="#C4CFDF" font-size="14">TypeScript <tspan fill="#93A4BC">31.1%</tspan></text>
+<circle cx="417" cy="274" r="5" fill="#9FAEFF"/>
+<text x="432" y="279" fill="#C4CFDF" font-size="14">Python <tspan fill="#93A4BC">22.9%</tspan></text>
+<circle cx="793" cy="274" r="5" fill="#EBCB8B"/>
+<text x="808" y="279" fill="#C4CFDF" font-size="14">Jupyter Notebook <tspan fill="#93A4BC">16.8%</tspan></text>
+<circle cx="41" cy="308" r="5" fill="#ED9EBC"/>
+<text x="56" y="313" fill="#C4CFDF" font-size="14">CSS <tspan fill="#93A4BC">12.6%</tspan></text>
+<circle cx="417" cy="308" r="5" fill="#74B9EE"/>
+<text x="432" y="313" fill="#C4CFDF" font-size="14">JavaScript <tspan fill="#93A4BC">12.3%</tspan></text>
+<circle cx="793" cy="308" r="5" fill="#C5A3ED"/>
+<text x="808" y="313" fill="#C4CFDF" font-size="14">Other <tspan fill="#93A4BC">4.2%</tspan></text>
+</g></svg>

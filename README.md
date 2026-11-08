@@ -1,149 +1,87 @@
-<div align="center">
-  <img src="assets/banner.svg" alt="Soumadip Karan — Software Development, AI/ML and Scientific Computing" width="100%" />
-</div>
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Soumadip Karan — Engineering ideas into interactive software. Engineering at IIT Mandi. Software, scientific computing, and applied AI." />
+</p>
 
-<br>
+<p align="center">
+  <a href="mailto:soumadipkaran88@gmail.com"><img src="https://img.shields.io/badge/LET'S_TALK-soumadipkaran88%40gmail.com-71E4C2?style=flat-square&amp;labelColor=151B26&amp;logo=gmail&amp;logoColor=71E4C2" alt="Email Soumadip" /></a>
+  <img src="https://img.shields.io/badge/IIT_MANDI-General_Engineering-9FAEFF?style=flat-square&amp;labelColor=151B26" alt="General Engineering at IIT Mandi" />
+</p>
 
-<div align="center">
+### A little about me
 
-**B.Tech in General Engineering · IIT Mandi**
+I'm **Soumadip**, an engineering undergraduate at **IIT Mandi**. I build software that makes complex ideas tangible: a map of someone's media taste, a matrix you can transform, or terrain reconstructed from photographs.
 
-I build interactive software at the intersection of engineering, mathematics, and intelligent systems.
+My work connects **full-stack development**, **scientific computing**, and **applied AI**. I like interfaces you can explore, APIs with clear boundaries, and mathematical tools that show their reasoning.
 
-<a href="https://soumadipkaran.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit%20Website-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"></a>
-<a href="mailto:soumadipkaran88@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Get%20in%20Touch-1F2937?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://github.com/souma888"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-souma888-111827?style=for-the-badge&logo=github&logoColor=white"></a>
+<br />
 
-</div>
-
-## About me
-
-- 🎓 Engineering undergraduate at **Indian Institute of Technology Mandi**.
-- 💻 Interested in **software engineering, AI/ML, scientific computing, and computational engineering**.
-- 🛠️ Building end-to-end products: from math and algorithms to APIs, databases, and interactive user interfaces.
-- 📚 Currently deepening my knowledge of **DSA, machine learning, computer vision, and full-stack systems**.
-
-## Tech stack
-
-<div align="center">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-**Frontend & Backend**
-
-![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-**Data, ML & Tools**
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
-## Selected projects
+### Selected work
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### [TASTERA](https://github.com/souma888/Tastera)
-Personalized media discovery with taste profiles, community interactions, and an interactive **Taste Map**.
-
-**Focus:** React · TypeScript · full-stack product design · recommendations
-
-[Explore repository ↗](https://github.com/souma888/Tastera)
-
+<td width="24%" valign="top">
+<sub>01 / DISCOVERY</sub><br />
+<h3><a href="https://github.com/souma888/Tastera">TASTERA ↗</a></h3>
 </td>
-<td width="50%" valign="top">
-
-### [TerraSight](https://github.com/souma888/TerraSight)
-Image-based landslide assessment exploring **COLMAP reconstruction**, segmentation, and geometric measurements.
-
-**Focus:** Python · FastAPI · computer vision · 3D reconstruction
-
-[Explore repository ↗](https://github.com/souma888/TerraSight)
-
+<td valign="top">
+<b>Follow your taste across media.</b><br /><br />
+A discovery app connecting movies, books, music, games, and more through explainable pathways. Includes an interactive Taste Map, saved libraries, and account-backed collections.<br /><br />
+<sub><b>React · TypeScript · FastAPI · PostgreSQL</b></sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [Vectora](https://github.com/souma888/Vectora)
-Interactive linear algebra studio for matrices, vectors, transformations, and visual explanations.
-
-**Focus:** linear algebra · visualization · frontend engineering
-
-[Explore repository ↗](https://github.com/souma888/Vectora)
-
+<td valign="top">
+<sub>02 / SCIENTIFIC COMPUTING</sub><br />
+<h3><a href="https://github.com/souma888/Vectora">Vectora ↗</a></h3>
 </td>
-<td width="50%" valign="top">
-
-### [NumPy Matrix Operations](https://github.com/souma888/numpy-matrix-operations)
-Python matrix library with numerical operations, documentation, tests, and a web API.
-
-**Focus:** Python · NumPy · testing · FastAPI
-
-[Explore repository ↗](https://github.com/souma888/numpy-matrix-operations)
-
+<td valign="top">
+<b>Make linear algebra something you can see.</b><br /><br />
+An interactive mathematical workbench for matrices, transformations, decompositions, and scientific computing. Explore intermediate steps, geometric effects, PCA, and robotics coordinate frames.<br /><br />
+<sub><b>React · TypeScript · NumPy · FastAPI</b></sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [Nexora](https://github.com/souma888/Nexora)
-**In planning:** multidisciplinary engineering simulation platform for mechanics, circuits, and signals.
-
-**Focus:** scientific computing · simulations · education
-
-[Explore project plan ↗](https://github.com/souma888/Nexora)
-
+<td valign="top">
+<sub>03 / COMPUTER VISION</sub><br />
+<h3><a href="https://github.com/souma888/TerraSight">TerraSight ↗</a></h3>
 </td>
-<td width="50%" valign="top">
-
-### [Reparo](https://github.com/souma888/Reparo)
-**In planning:** safety-aware, AI-assisted appliance troubleshooting using structured and multimodal evidence.
-
-**Focus:** ML systems · retrieval · product architecture
-
-[Explore project plan ↗](https://github.com/souma888/Reparo)
-
+<td valign="top">
+<b>From terrain photographs to inspectable geometry.</b><br /><br />
+A terrain capture and analysis project with image-quality checks, local COLMAP reconstruction, and an interactive point-cloud viewer. In development, with scale validation and explicit measurement limits.<br /><br />
+<sub><b>Python · OpenCV · COLMAP · Three.js</b></sub>
 </td>
 </tr>
 </table>
 
-## GitHub activity
+<br />
 
-<div align="center">
-  <a href="https://github.com/souma888">
-    <img height="175" alt="Soumadip's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=souma888&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
-  </a>
-  <a href="https://github.com/souma888?tab=repositories">
-    <img height="175" alt="Most used repository languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=souma888&layout=compact&langs_count=7&hide_border=true&theme=transparent" />
-  </a>
-</div>
+### Tools I work with
 
-<details>
-<summary><b>More GitHub metrics</b> — contributions and language activity</summary>
-<br>
-<div align="center">
-  <img src="assets/github-metrics.svg" alt="Extended GitHub activity metrics" width="95%" />
-</div>
+<p>
+  <img src="https://img.shields.io/badge/Python-151B26?style=for-the-badge&amp;logo=python&amp;logoColor=71E4C2" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-151B26?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=71E4C2" alt="C++" />
+  <img src="https://img.shields.io/badge/TypeScript-151B26?style=for-the-badge&amp;logo=typescript&amp;logoColor=71E4C2" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-151B26?style=for-the-badge&amp;logo=javascript&amp;logoColor=71E4C2" alt="JavaScript" />
+  <br />
+  <img src="https://img.shields.io/badge/React-151B26?style=for-the-badge&amp;logo=react&amp;logoColor=9FAEFF" alt="React" />
+  <img src="https://img.shields.io/badge/FastAPI-151B26?style=for-the-badge&amp;logo=fastapi&amp;logoColor=9FAEFF" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-151B26?style=for-the-badge&amp;logo=postgresql&amp;logoColor=9FAEFF" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/NumPy-151B26?style=for-the-badge&amp;logo=numpy&amp;logoColor=9FAEFF" alt="NumPy" />
+  <img src="https://img.shields.io/badge/OpenCV-151B26?style=for-the-badge&amp;logo=opencv&amp;logoColor=9FAEFF" alt="OpenCV" />
+</p>
 
-> The extended dashboard updates through a scheduled GitHub Action after you configure the `METRICS_TOKEN` secret as described in [SETUP.md](SETUP.md).
-</details>
+**Currently exploring:** computer vision, recommendation systems, numerical methods, and the engineering behind reliable full-stack applications.
+
+<br />
+
+### On GitHub
+
+<img src="assets/github-metrics.svg" width="100%" alt="Public GitHub repository metrics and language distribution. Updated daily from the GitHub API." />
+
+<sub>Public, owned repositories only · Language share reflects code bytes, not proficiency.</sub>
+
+<br /><br />
 
 ---
 
-<div align="center">
-  <sub>Building tools that make complex ideas easier to explore and understand.</sub>
-</div>
+<p align="center"><sub>Curious about the math. Careful about the engineering. Always building.</sub></p>
