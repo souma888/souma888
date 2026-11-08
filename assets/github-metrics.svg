@@ -9,28 +9,28 @@
 <text x="36" y="142" fill="#9684AB" font-size="12" letter-spacing="1.5">PUBLIC REPOSITORIES</text>
 <text x="412" y="113" fill="#F4F0FF" font-size="42" font-weight="600">06</text>
 <text x="412" y="142" fill="#9684AB" font-size="12" letter-spacing="1.5">LANGUAGES</text>
-<text x="788" y="113" fill="#F4F0FF" font-size="42" font-weight="600">1325</text>
+<text x="788" y="113" fill="#F4F0FF" font-size="42" font-weight="600">1335</text>
 <text x="788" y="142" fill="#9684AB" font-size="12" letter-spacing="1.5">KiB OF PUBLIC CODE</text>
 <path d="M36 169H1164" stroke="#344C70"/>
 <text x="36" y="207" fill="#EDE5FA" font-size="17" font-weight="600">Languages across my public code</text>
 <defs><clipPath id="bar"><rect x="36" y="229" width="1128" height="14" rx="7"/></clipPath></defs><g clip-path="url(#bar)">
-<rect x="36.000" y="229" width="350.217" height="14" fill="#C7B7FF"/>
-<rect x="386.217" y="229" width="260.667" height="14" fill="#FFAA8C"/>
-<rect x="646.884" y="229" width="189.273" height="14" fill="#6BE4C3"/>
-<rect x="836.157" y="229" width="141.954" height="14" fill="#E9A8D5"/>
-<rect x="978.111" y="229" width="138.871" height="14" fill="#74B9EE"/>
-<rect x="1116.982" y="229" width="47.018" height="14" fill="#C5A3ED"/>
+<rect x="36.000" y="229" width="347.651" height="14" fill="#C7B7FF"/>
+<rect x="383.651" y="229" width="267.022" height="14" fill="#FFAA8C"/>
+<rect x="650.673" y="229" width="187.886" height="14" fill="#6BE4C3"/>
+<rect x="838.559" y="229" width="140.914" height="14" fill="#E9A8D5"/>
+<rect x="979.473" y="229" width="137.853" height="14" fill="#74B9EE"/>
+<rect x="1117.326" y="229" width="46.674" height="14" fill="#C5A3ED"/>
 </g>
 <circle cx="41" cy="274" r="5" fill="#C7B7FF"/>
-<text x="56" y="279" fill="#BBAECF" font-size="14">TypeScript <tspan fill="#9684AB">31.0%</tspan></text>
+<text x="56" y="279" fill="#BBAECF" font-size="14">TypeScript <tspan fill="#9684AB">30.8%</tspan></text>
 <circle cx="417" cy="274" r="5" fill="#FFAA8C"/>
-<text x="432" y="279" fill="#BBAECF" font-size="14">Python <tspan fill="#9684AB">23.1%</tspan></text>
+<text x="432" y="279" fill="#BBAECF" font-size="14">Python <tspan fill="#9684AB">23.7%</tspan></text>
 <circle cx="793" cy="274" r="5" fill="#6BE4C3"/>
-<text x="808" y="279" fill="#BBAECF" font-size="14">Jupyter Notebook <tspan fill="#9684AB">16.8%</tspan></text>
+<text x="808" y="279" fill="#BBAECF" font-size="14">Jupyter Notebook <tspan fill="#9684AB">16.7%</tspan></text>
 <circle cx="41" cy="308" r="5" fill="#E9A8D5"/>
-<text x="56" y="313" fill="#BBAECF" font-size="14">CSS <tspan fill="#9684AB">12.6%</tspan></text>
+<text x="56" y="313" fill="#BBAECF" font-size="14">CSS <tspan fill="#9684AB">12.5%</tspan></text>
 <circle cx="417" cy="308" r="5" fill="#74B9EE"/>
-<text x="432" y="313" fill="#BBAECF" font-size="14">JavaScript <tspan fill="#9684AB">12.3%</tspan></text>
+<text x="432" y="313" fill="#BBAECF" font-size="14">JavaScript <tspan fill="#9684AB">12.2%</tspan></text>
 <circle cx="793" cy="308" r="5" fill="#C5A3ED"/>
-<text x="808" y="313" fill="#BBAECF" font-size="14">Other <tspan fill="#9684AB">4.2%</tspan></text>
+<text x="808" y="313" fill="#BBAECF" font-size="14">Other <tspan fill="#9684AB">4.1%</tspan></text>
 </g></svg>
