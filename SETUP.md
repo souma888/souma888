@@ -2,7 +2,7 @@
 
 The root README appears on the GitHub profile. All project links point to public repositories; personal website links are intentionally omitted.
 
-- `assets/banner-navy.png`: generated static raster banner. No SVG, animation, or external image service.
+- `assets/banner-framed.png`: generated static raster banner. No SVG, animation, or external image service.
 - `scripts/design_assets.py`: regenerate the five project cards, section titles, about panel, and contact footer. The generated PNG banner is maintained separately.
 - `scripts/contributions.py`: renders the actual public GitHub contribution calendar as a constellation. Intensity levels come from GitHub; the display never invents activity.
 - `assets/navy-contributions.svg`: last successfully generated contribution constellation.
