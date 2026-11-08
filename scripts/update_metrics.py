@@ -81,4 +81,4 @@ def render(repos, languages):
 if __name__ == '__main__':
     repositories, language_bytes = collect()
     # Write only after every API request succeeds; retain the last good SVG on failure.
-    (ROOT / 'assets' / 'github-metrics.svg').write_text(render(repositories, language_bytes), encoding='utf-8')
+    (ROOT / 'assets' / 'navy-github-metrics.svg').write_text(render(repositories, language_bytes), encoding='utf-8')

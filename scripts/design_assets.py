@@ -7,7 +7,7 @@ OUT = Path(__file__).resolve().parents[1] / 'assets'
 
 
 def svg(name, w, h, body, label):
-    (OUT / name).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(label, quote=True)}"><style>text{{font-family:Arial,Helvetica,sans-serif}}.mono{{font-family:Consolas,monospace}}@media(prefers-reduced-motion:reduce){{.motion{{display:none}}}}</style>{body}</svg>', encoding='utf-8')
+    (OUT / ('navy-' + name)).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(label, quote=True)}"><style>text{{font-family:Arial,Helvetica,sans-serif}}.mono{{font-family:Consolas,monospace}}@media(prefers-reduced-motion:reduce){{.motion{{display:none}}}}</style>{body}</svg>', encoding='utf-8')
 
 
 def build():

@@ -46,7 +46,7 @@ def generate():
     for i, color in enumerate(colors):
         s.append(f'<circle cx="{1030+i*21}" cy="272" r="5" fill="{color}"/>')
     s.append('<text x="1142" y="276" fill="#9684AB" font-size="12">MORE</text></g></svg>')
-    (Path(__file__).resolve().parents[1] / 'assets/contributions.svg').write_text('\n'.join(s), encoding='utf-8')
+    (Path(__file__).resolve().parents[1] / 'assets/navy-contributions.svg').write_text('\n'.join(s), encoding='utf-8')
 
 
 if __name__ == '__main__':
