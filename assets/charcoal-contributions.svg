@@ -370,7 +370,8 @@
 <circle cx="1119" cy="187" r="6.1" fill="#E0C7FF"><title>2026-11-06: activity level 4 of 4</title></circle>
 <circle cx="1119" cy="187" r="9" fill="#E0C7FF" opacity=".1"/>
 <circle cx="1119" cy="208" r="4" fill="#241C30"><title>2026-11-07: activity level 0 of 4</title></circle>
-<circle cx="1140" cy="82" r="5.7" fill="#B593EC"><title>2026-11-08: activity level 3 of 4</title></circle>
+<circle cx="1140" cy="82" r="6.1" fill="#E0C7FF"><title>2026-11-08: activity level 4 of 4</title></circle>
+<circle cx="1140" cy="82" r="9" fill="#E0C7FF" opacity=".1"/>
 <path d="M30 245H1170" stroke="#352A48"/>
 <text x="30" y="276" fill="#9684AB" font-size="12">2025-11-09 → 2026-11-08 / public GitHub contribution calendar</text>
 <text x="977" y="276" fill="#9684AB" font-size="12">LESS</text>
