@@ -41,7 +41,7 @@ def render(repos, languages):
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="355" viewBox="0 0 1200 355" role="img" aria-labelledby="title desc">',
              '<title id="title">Public repository dashboard</title>',
              '<desc id="desc">Owned public repositories, languages, and public code size. Private repositories and forks are excluded.</desc>',
-             '<rect x="1" y="1" width="1198" height="353" rx="16" fill="#100E18" stroke="#352A48"/>',
+             '<rect x="1" y="1" width="1198" height="353" rx="16" fill="#13233B" stroke="#344C70"/>',
              '<g font-family="Segoe UI, Arial, sans-serif">',
              '<text x="36" y="41" fill="#C7B7FF" font-family="Consolas, monospace" font-size="12" letter-spacing="2">THE PUBLIC CODEBASE</text>',
              f'<text x="1164" y="41" text-anchor="end" fill="#9684AB" font-size="12">UPDATED {date.upper()} / UTC</text>']
@@ -52,7 +52,7 @@ def render(repos, languages):
         x = 36 + i * 376
         parts += [f'<text x="{x}" y="113" fill="#F4F0FF" font-size="42" font-weight="600">{value:02d}</text>',
                   f'<text x="{x}" y="142" fill="#9684AB" font-size="12" letter-spacing="1.5">{label}</text>']
-    parts += ['<path d="M36 169H1164" stroke="#352A48"/>',
+    parts += ['<path d="M36 169H1164" stroke="#344C70"/>',
               '<text x="36" y="207" fill="#EDE5FA" font-size="17" font-weight="600">Languages across my public code</text>']
     ranked = languages.most_common()
     shown = ranked[:5]

@@ -1,4 +1,4 @@
-<img src="assets/banner-projects.png" width="100%" alt="Media discovery graphs, interactive linear algebra, and terrain reconstruction — artwork based on my projects." />
+<img src="assets/banner-navy.png" width="100%" alt="Soumadip Karan. IIT Mandi. AI/ML, software development, and computer vision. Media connections and terrain reconstruction." />
 
 <br />
 <p align="center">

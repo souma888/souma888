@@ -27,10 +27,10 @@ def generate():
         raise ValueError('Incomplete contribution calendar; keeping the last good image')
     first = datetime.strptime(days[0][0], '%Y-%m-%d').date()
     offset = (first.weekday() + 1) % 7
-    colors = ['#241C30', '#55406F', '#8260B4', '#B593EC', '#E0C7FF']
+    colors = ['#1B3050', '#37517E', '#8260B4', '#B593EC', '#E0C7FF']
     active = sum(level > 0 for _, level in days)
     s = ['<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Real GitHub contribution activity, last year. Higher intensity means more contributions.">',
-         '<rect x="1" y="1" width="1198" height="298" rx="18" fill="#100E18" stroke="#352A48"/>',
+         '<rect x="1" y="1" width="1198" height="298" rx="18" fill="#13233B" stroke="#344C70"/>',
          '<g font-family="Consolas,monospace"><text x="30" y="38" fill="#C7B7FF" font-size="13" letter-spacing="2">THE CONTRIBUTION CONSTELLATION</text>',
          f'<text x="1170" y="38" text-anchor="end" fill="#FFAA8C" font-size="13">{active} ACTIVE DAYS / LAST YEAR</text>']
     for i, (day, level) in enumerate(days):
@@ -40,7 +40,7 @@ def generate():
         s.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{colors[level]}"><title>{day}: activity level {level} of 4</title></circle>')
         if level == 4:
             s.append(f'<circle cx="{x}" cy="{y}" r="9" fill="{colors[level]}" opacity=".1"/>')
-    s += ['<path d="M30 245H1170" stroke="#352A48"/>',
+    s += ['<path d="M30 245H1170" stroke="#344C70"/>',
           f'<text x="30" y="276" fill="#9684AB" font-size="12">{days[0][0]} → {days[-1][0]} / public GitHub contribution calendar</text>',
           '<text x="977" y="276" fill="#9684AB" font-size="12">LESS</text>']
     for i, color in enumerate(colors):
