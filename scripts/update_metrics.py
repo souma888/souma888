@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 
 OWNER = 'souma888'
 ROOT = Path(__file__).resolve().parents[1]
-COLORS = ['#71E4C2', '#9FAEFF', '#EBCB8B', '#ED9EBC', '#74B9EE', '#C5A3ED']
+COLORS = ['#C7B7FF', '#FFAA8C', '#6BE4C3', '#E9A8D5', '#74B9EE', '#C5A3ED']
 
 
 def api(path):
@@ -40,20 +40,20 @@ def render(repos, languages):
     date = datetime.now(timezone.utc).strftime('%d %b %Y')
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="355" viewBox="0 0 1200 355" role="img" aria-labelledby="title desc">',
              '<title id="title">Public repository dashboard</title>',
-             '<desc id="desc">Owned public repositories, stars, forks, and language share by code bytes. Private repositories and forks are excluded.</desc>',
-             '<rect x="1" y="1" width="1198" height="353" rx="16" fill="#101720" stroke="#293445"/>',
+             '<desc id="desc">Owned public repositories, languages, and public code size. Private repositories and forks are excluded.</desc>',
+             '<rect x="1" y="1" width="1198" height="353" rx="16" fill="#100E18" stroke="#352A48"/>',
              '<g font-family="Segoe UI, Arial, sans-serif">',
-             '<text x="36" y="41" fill="#71E4C2" font-family="Consolas, monospace" font-size="12" letter-spacing="2">PUBLIC REPOSITORY SNAPSHOT</text>',
-             f'<text x="1164" y="41" text-anchor="end" fill="#93A4BC" font-size="12">UPDATED {date.upper()} / UTC</text>']
+             '<text x="36" y="41" fill="#C7B7FF" font-family="Consolas, monospace" font-size="12" letter-spacing="2">THE PUBLIC CODEBASE</text>',
+             f'<text x="1164" y="41" text-anchor="end" fill="#9684AB" font-size="12">UPDATED {date.upper()} / UTC</text>']
     stats = [(len(repos), 'PUBLIC REPOSITORIES'),
              (len(languages), 'LANGUAGES'),
              (round(sum(languages.values()) / 1024), 'KiB OF PUBLIC CODE')]
     for i, (value, label) in enumerate(stats):
         x = 36 + i * 376
-        parts += [f'<text x="{x}" y="113" fill="#F0F3FA" font-size="42" font-weight="600">{value:02d}</text>',
-                  f'<text x="{x}" y="142" fill="#93A4BC" font-size="12" letter-spacing="1.5">{label}</text>']
-    parts += ['<path d="M36 169H1164" stroke="#293445"/>',
-              '<text x="36" y="207" fill="#DFE5EF" font-size="17" font-weight="600">Languages across my public code</text>']
+        parts += [f'<text x="{x}" y="113" fill="#F4F0FF" font-size="42" font-weight="600">{value:02d}</text>',
+                  f'<text x="{x}" y="142" fill="#9684AB" font-size="12" letter-spacing="1.5">{label}</text>']
+    parts += ['<path d="M36 169H1164" stroke="#352A48"/>',
+              '<text x="36" y="207" fill="#EDE5FA" font-size="17" font-weight="600">Languages across my public code</text>']
     ranked = languages.most_common()
     shown = ranked[:5]
     if len(ranked) > 5:
@@ -71,9 +71,9 @@ def render(repos, languages):
         y = 279 + (i // 3) * 34
         percentage = count / total * 100 if total else 0
         parts += [f'<circle cx="{x + 5}" cy="{y - 5}" r="5" fill="{COLORS[i]}"/>',
-                  f'<text x="{x + 20}" y="{y}" fill="#C4CFDF" font-size="14">{escape(name)} <tspan fill="#93A4BC">{percentage:.1f}%</tspan></text>']
+                  f'<text x="{x + 20}" y="{y}" fill="#BBAECF" font-size="14">{escape(name)} <tspan fill="#9684AB">{percentage:.1f}%</tspan></text>']
     if not shown:
-        parts.append('<text x="36" y="279" fill="#93A4BC" font-size="14">No public language data yet.</text>')
+        parts.append('<text x="36" y="279" fill="#9684AB" font-size="14">No public language data yet.</text>')
     parts.append('</g></svg>')
     return '\n'.join(parts) + '\n'
 

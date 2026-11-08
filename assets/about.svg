@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="246" viewBox="0 0 1200 246" role="img" aria-label="About Soumadip: General Engineering at IIT Mandi. Interested in software, mathematics, and AI. Build, question, improve."><style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,monospace}@media(prefers-reduced-motion:reduce){.motion{display:none}}</style><rect x="1" y="1" width="1198" height="244" rx="18" fill="#100E18" stroke="#352A48"/>
+    <path d="M620 28V218" stroke="#352A48"/>
+    <text class="mono" x="30" y="39" fill="#756587" font-size="13">~/soumadip/about.ts</text>
+    <g class="mono" font-size="19"><text x="30" y="83" fill="#C7B7FF">const <tspan fill="#F4F0FF">builder</tspan> = {</text>
+    <text x="52" y="119" fill="#B9A9CD">education: <tspan fill="#6BE4C3">"General Engineering @ IIT Mandi"</tspan>,</text>
+    <text x="52" y="155" fill="#B9A9CD">interests: <tspan fill="#FFAA8C">["software", "math", "AI"]</tspan>,</text>
+    <text x="52" y="191" fill="#B9A9CD">approach: <tspan fill="#6BE4C3">"build, question, improve"</tspan></text>
+    <text x="30" y="220" fill="#C7B7FF">};</text></g>
+    <text x="655" y="59" fill="#FFAA8C" font-size="12" letter-spacing="3">WHAT DRIVES ME</text>
+    <g fill="#EEE7FA" font-size="23" font-weight="600"><text x="655" y="102">Make the abstract interactive.</text><text x="655" y="139">Make the complex understandable.</text><text x="655" y="176">Make something worth using.</text></g>
+    <text class="mono" x="655" y="215" fill="#9684AB" font-size="14">learning in public, one project at a time.</text></svg>

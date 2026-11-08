@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/update_metrics.py
+      - scripts/contributions.py
       - .github/workflows/metrics.yml
 
 permissions:
@@ -28,13 +29,15 @@ jobs:
       - name: Generate public repository dashboard
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python scripts/update_metrics.py
+        run: |
+          python scripts/update_metrics.py
+          python scripts/contributions.py
       - name: Commit refreshed dashboard
         run: |
-          if ! git diff --quiet -- assets/github-metrics.svg; then
+          if ! git diff --quiet -- assets/github-metrics.svg assets/contributions.svg; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add assets/github-metrics.svg
+            git add assets/github-metrics.svg assets/contributions.svg
             git commit -m 'chore: refresh public profile metrics'
             git push
           fi
