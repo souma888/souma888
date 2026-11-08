@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Soumadip Karan — IIT Mandi. Software development, AI/ML, and computer vision." />
+<img src="assets/banner-futuristic.png" width="100%" alt="Soumadip Karan — IIT Mandi. Software development, AI/ML, and computer vision." />
 
 <br />
 <p align="center">

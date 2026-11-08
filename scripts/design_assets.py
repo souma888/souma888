@@ -11,8 +11,6 @@ def svg(name, w, h, body, label):
 
 
 def build():
-    from banner import build_banner
-    build_banner(svg)
     from contact_buttons import build_buttons
     build_buttons(svg)
     svg('about.svg',1200,120,'''<rect x="1" y="1" width="1198" height="118" rx="14" fill="#100E18" stroke="#352A48"/>
