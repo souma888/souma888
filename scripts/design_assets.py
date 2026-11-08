@@ -22,7 +22,7 @@ def build():
         svg(f'{name}-heading.svg',1200,100,f'<text class="mono" x="2" y="49" fill="#FFAA8C" font-size="15">/{num}</text><text x="55" y="53" fill="#EDE5FA" font-size="34" font-weight="800" letter-spacing="-1">{title}</text><text class="mono" x="1198" y="50" text-anchor="end" fill="#9684AB" font-size="13">{escape(sub)}</text><path d="M2 80H1198" stroke="#352A48"/>',title)
 
     projects=[
-        ('tastera','01','TASTERA','CROSS-MEDIA DISCOVERY','#C7B7FF',['Movies. Music. Books. A map of your taste.','Explainable discovery, personal libraries,','and pathways across the things you love.'],'React / TypeScript / FastAPI / PostgreSQL','PRODUCT'),
+        ('tastera','01','Tastera','CROSS-MEDIA DISCOVERY','#C7B7FF',['Movies. Music. Books. A map of your taste.','Explainable discovery, personal libraries,','and pathways across the things you love.'],'React / TypeScript / FastAPI / PostgreSQL','PRODUCT'),
         ('vectora','02','Vectora','MATHEMATICS, MADE VISIBLE','#6BE4C3',['Turn matrices into something you can explore.','Transformations, decompositions, PCA, and','robotics through interactive experiments.'],'TypeScript / React / NumPy / FastAPI','WORKBENCH'),
         ('terrasight','03','TerraSight','FROM PIXELS TO TERRAIN','#FFAA8C',['Capture the terrain. Inspect the geometry.','Image-quality checks, local reconstruction,','and a point-cloud viewer with explicit limits.'],'Python / OpenCV / COLMAP / Three.js','IN DEVELOPMENT'),
         ('nexora','04','Nexora','THE ENGINEERING PLAYGROUND','#E9A8D5',['Change a parameter. Watch the physics respond.','An interactive lab spanning mechanics,','circuits, electronics, and signals.'],'TypeScript / Simulations / Visual solvers','IN DEVELOPMENT'),

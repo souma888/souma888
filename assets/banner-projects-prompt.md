@@ -1,0 +1,8 @@
+# Project-based banner
+
+Generated with the built-in image generation tool. Static PNG, no embedded text. Asset: `banner-projects.png`.
+
+Use case: stylized-concept
+Asset type: static GitHub profile banner, ultra-wide 3:1.
+Create a sophisticated, understated technical illustration for a software developer whose real projects involve media recommendation graphs, interactive linear algebra, and terrain photogrammetry. A coherent engineering workbench spanning the frame: at left a small elegant connected graph of nodes with a few subtle translucent rectangular media tiles; at center a precise 3D coordinate-frame transformation study with two translucent geometric planes and sparse basis-vector lines; at right a beautifully reconstructed miniature mountain terrain surface transitioning from a sparse cyan point cloud into a clean lavender triangulated mesh. These are one unified technical composition on an almost black graphite background, connected by restrained fine drafting lines. Architectural visualization quality, crisp fine detail, a little glass and brushed graphite depth, soft controlled cyan and muted lavender light. Elegant, calm, professional, contextual to engineering software. Minimal negative space and balanced framing. Wide shallow panoramic crop, generous margins, looks excellent at 900 pixels wide. Artwork only.
+NO TEXT WHATSOEVER. No letters, numbers, labels, slogans, name, typography, interface chrome, code snippets, logos, watermarks. No brains, robots, spaceships, sci-fi machinery, glowing sci-fi rings, dramatic neon, fantasy imagery, waves. Single static still image.

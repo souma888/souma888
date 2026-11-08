@@ -1,4 +1,4 @@
-<img src="assets/banner-futuristic.png" width="100%" alt="Soumadip Karan — IIT Mandi. Software development, AI/ML, and computer vision." />
+<img src="assets/banner-projects.png" width="100%" alt="Media discovery graphs, interactive linear algebra, and terrain reconstruction — artwork based on my projects." />
 
 <br />
 <p align="center">
