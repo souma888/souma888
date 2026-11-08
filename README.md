@@ -1,14 +1,14 @@
-<img src="assets/banner.svg" width="100%" alt="Soumadip Karan — IIT Mandi. Software development, computer vision, and scientific computing." />
+<img src="assets/banner.svg" width="100%" alt="Soumadip Karan — IIT Mandi. Software development, AI/ML, and computer vision." />
 
 <br />
 <p align="center">
-<a href="mailto:soumadipkaran88@gmail.com"><img src="https://img.shields.io/badge/SAY_HELLO-FFAA8C?style=flat-square&amp;logo=gmail&amp;logoColor=100E18" alt="Email Soumadip" /></a> &nbsp;
-<a href="https://www.instagram.com/soumadip1608/"><img src="https://img.shields.io/badge/INSTAGRAM-@soumadip1608-C7B7FF?style=flat-square&amp;logo=instagram&amp;logoColor=C7B7FF&amp;labelColor=1C1429" alt="Instagram @soumadip1608" /></a> &nbsp;
-<a href="https://wa.me/917074796529"><img src="https://img.shields.io/badge/WHATSAPP-Message_me-6BE4C3?style=flat-square&amp;logo=whatsapp&amp;logoColor=6BE4C3&amp;labelColor=1C1429" alt="Message me on WhatsApp" /></a> &nbsp;
-<a href="https://github.com/souma888?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_MY_REPOS-6BE4C3?style=flat-square&amp;logo=github&amp;logoColor=100E18" alt="Explore my public repositories" /></a>
+<a href="mailto:soumadipkaran88@gmail.com"><img src="assets/contact-email.svg" width="22%" alt="Email" /></a>
+<a href="https://www.instagram.com/soumadip1608/"><img src="assets/contact-instagram.svg" width="22%" alt="Instagram @soumadip1608" /></a>
+<a href="https://wa.me/917074796529"><img src="assets/contact-whatsapp.svg" width="22%" alt="Message me on WhatsApp" /></a>
+<a href="https://github.com/souma888?tab=repositories"><img src="assets/contact-github.svg" width="22%" alt="Public repositories" /></a>
 </p>
 <br />
-<img src="assets/about.svg" width="100%" alt="Student at IIT Mandi working on software, computer vision, and numerical tools. Recent projects include media discovery, terrain reconstruction, and interactive engineering labs." />
+<img src="assets/about.svg" width="100%" alt="Student at IIT Mandi working on software, AI/ML, and computer vision. Recent projects include media discovery, terrain reconstruction, and interactive engineering labs." />
 <img src="assets/work-heading.svg" width="100%" alt="01 — Selected work. Five public repositories." />
 <p align="center">
 <a href="https://github.com/souma888/Tastera"><img src="assets/project-tastera.svg" width="49%" alt="Tastera — Cross-media discovery, taste maps, personal libraries. Open repository." /></a>

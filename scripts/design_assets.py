@@ -13,9 +13,11 @@ def svg(name, w, h, body, label):
 def build():
     from banner import build_banner
     build_banner(svg)
+    from contact_buttons import build_buttons
+    build_buttons(svg)
     svg('about.svg',1200,120,'''<rect x="1" y="1" width="1198" height="118" rx="14" fill="#100E18" stroke="#352A48"/>
-    <text x="30" y="48" fill="#EDE5FA" font-size="23">Student at IIT Mandi. Working on software, computer vision, and numerical tools.</text>
-    <text x="30" y="84" fill="#A99DB9" font-size="18">Recent projects: media discovery, terrain reconstruction, and interactive engineering labs.</text>''','Student at IIT Mandi. Software, computer vision, and numerical tools. Media discovery, terrain reconstruction, and interactive engineering labs.')
+    <text x="30" y="48" fill="#EDE5FA" font-size="23">Student at IIT Mandi. Working on software, AI/ML, and computer vision.</text>
+    <text x="30" y="84" fill="#A99DB9" font-size="18">Recent projects: media discovery, terrain reconstruction, and interactive engineering labs.</text>''','Student at IIT Mandi. Software, AI/ML, and computer vision. Media discovery, terrain reconstruction, and interactive engineering labs.')
 
     sections=[('work','01','SELECTED WORK','5 public repositories'),('stack','02','THE TOOLBOX','languages & frameworks'),('activity','03','COMMIT FREQUENCY','last 12 months')]
     for name,num,title,sub in sections:
