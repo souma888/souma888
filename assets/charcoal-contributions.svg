@@ -338,11 +338,9 @@
 <circle cx="1035" cy="166" r="4" fill="#241C30"><title>2026-10-08: activity level 0 of 4</title></circle>
 <circle cx="1035" cy="187" r="4" fill="#241C30"><title>2026-10-09: activity level 0 of 4</title></circle>
 <circle cx="1035" cy="208" r="4" fill="#241C30"><title>2026-10-10: activity level 0 of 4</title></circle>
-<circle cx="1056" cy="82" r="6.1" fill="#E0C7FF"><title>2026-10-11: activity level 4 of 4</title></circle>
-<circle cx="1056" cy="82" r="9" fill="#E0C7FF" opacity=".1"/>
+<circle cx="1056" cy="82" r="5.7" fill="#B593EC"><title>2026-10-11: activity level 3 of 4</title></circle>
 <circle cx="1056" cy="103" r="4" fill="#241C30"><title>2026-10-12: activity level 0 of 4</title></circle>
-<circle cx="1056" cy="124" r="6.1" fill="#E0C7FF"><title>2026-10-13: activity level 4 of 4</title></circle>
-<circle cx="1056" cy="124" r="9" fill="#E0C7FF" opacity=".1"/>
+<circle cx="1056" cy="124" r="5.7" fill="#B593EC"><title>2026-10-13: activity level 3 of 4</title></circle>
 <circle cx="1056" cy="145" r="4.9" fill="#55406F"><title>2026-10-14: activity level 1 of 4</title></circle>
 <circle cx="1056" cy="166" r="4" fill="#241C30"><title>2026-10-15: activity level 0 of 4</title></circle>
 <circle cx="1056" cy="187" r="4" fill="#241C30"><title>2026-10-16: activity level 0 of 4</title></circle>
@@ -352,9 +350,9 @@
 <circle cx="1077" cy="124" r="4" fill="#241C30"><title>2026-10-20: activity level 0 of 4</title></circle>
 <circle cx="1077" cy="145" r="4" fill="#241C30"><title>2026-10-21: activity level 0 of 4</title></circle>
 <circle cx="1077" cy="166" r="5.3" fill="#8260B4"><title>2026-10-22: activity level 2 of 4</title></circle>
-<circle cx="1077" cy="187" r="5.7" fill="#B593EC"><title>2026-10-23: activity level 3 of 4</title></circle>
+<circle cx="1077" cy="187" r="5.3" fill="#8260B4"><title>2026-10-23: activity level 2 of 4</title></circle>
 <circle cx="1077" cy="208" r="5.3" fill="#8260B4"><title>2026-10-24: activity level 2 of 4</title></circle>
-<circle cx="1098" cy="82" r="5.7" fill="#B593EC"><title>2026-10-25: activity level 3 of 4</title></circle>
+<circle cx="1098" cy="82" r="5.3" fill="#8260B4"><title>2026-10-25: activity level 2 of 4</title></circle>
 <circle cx="1098" cy="103" r="6.1" fill="#E0C7FF"><title>2026-10-26: activity level 4 of 4</title></circle>
 <circle cx="1098" cy="103" r="9" fill="#E0C7FF" opacity=".1"/>
 <circle cx="1098" cy="124" r="4" fill="#241C30"><title>2026-10-27: activity level 0 of 4</title></circle>
@@ -367,13 +365,13 @@
 <circle cx="1119" cy="124" r="4" fill="#241C30"><title>2026-11-03: activity level 0 of 4</title></circle>
 <circle cx="1119" cy="145" r="4" fill="#241C30"><title>2026-11-04: activity level 0 of 4</title></circle>
 <circle cx="1119" cy="166" r="4" fill="#241C30"><title>2026-11-05: activity level 0 of 4</title></circle>
-<circle cx="1119" cy="187" r="6.1" fill="#E0C7FF"><title>2026-11-06: activity level 4 of 4</title></circle>
-<circle cx="1119" cy="187" r="9" fill="#E0C7FF" opacity=".1"/>
+<circle cx="1119" cy="187" r="5.7" fill="#B593EC"><title>2026-11-06: activity level 3 of 4</title></circle>
 <circle cx="1119" cy="208" r="4" fill="#241C30"><title>2026-11-07: activity level 0 of 4</title></circle>
 <circle cx="1140" cy="82" r="6.1" fill="#E0C7FF"><title>2026-11-08: activity level 4 of 4</title></circle>
 <circle cx="1140" cy="82" r="9" fill="#E0C7FF" opacity=".1"/>
+<circle cx="1140" cy="103" r="4" fill="#241C30"><title>2026-11-09: activity level 0 of 4</title></circle>
 <path d="M30 245H1170" stroke="#352A48"/>
-<text x="30" y="276" fill="#9684AB" font-size="12">2025-11-09 → 2026-11-08 / public GitHub contribution calendar</text>
+<text x="30" y="276" fill="#9684AB" font-size="12">2025-11-09 → 2026-11-09 / public GitHub contribution calendar</text>
 <text x="977" y="276" fill="#9684AB" font-size="12">LESS</text>
 <circle cx="1030" cy="272" r="5" fill="#241C30"/>
 <circle cx="1051" cy="272" r="5" fill="#55406F"/>
