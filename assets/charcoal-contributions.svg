@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Real GitHub contribution activity, last year. Higher intensity means more contributions.">
 <rect x="1" y="1" width="1198" height="298" rx="18" fill="#100E18" stroke="#352A48"/>
 <g font-family="Consolas,monospace"><text x="30" y="38" fill="#C7B7FF" font-size="13" letter-spacing="2">THE CONTRIBUTION CONSTELLATION</text>
-<text x="1170" y="38" text-anchor="end" fill="#FFAA8C" font-size="13">12 ACTIVE DAYS / LAST YEAR</text>
+<text x="1170" y="38" text-anchor="end" fill="#FFAA8C" font-size="13">13 ACTIVE DAYS / LAST YEAR</text>
 <circle cx="48" cy="82" r="4" fill="#241C30"><title>2025-11-09: activity level 0 of 4</title></circle>
 <circle cx="48" cy="103" r="4" fill="#241C30"><title>2025-11-10: activity level 0 of 4</title></circle>
 <circle cx="48" cy="124" r="4" fill="#241C30"><title>2025-11-11: activity level 0 of 4</title></circle>
@@ -369,9 +369,10 @@
 <circle cx="1119" cy="208" r="4" fill="#241C30"><title>2026-11-07: activity level 0 of 4</title></circle>
 <circle cx="1140" cy="82" r="6.1" fill="#E0C7FF"><title>2026-11-08: activity level 4 of 4</title></circle>
 <circle cx="1140" cy="82" r="9" fill="#E0C7FF" opacity=".1"/>
-<circle cx="1140" cy="103" r="4" fill="#241C30"><title>2026-11-09: activity level 0 of 4</title></circle>
+<circle cx="1140" cy="103" r="4.9" fill="#55406F"><title>2026-11-09: activity level 1 of 4</title></circle>
+<circle cx="1140" cy="124" r="4" fill="#241C30"><title>2026-11-10: activity level 0 of 4</title></circle>
 <path d="M30 245H1170" stroke="#352A48"/>
-<text x="30" y="276" fill="#9684AB" font-size="12">2025-11-09 → 2026-11-09 / public GitHub contribution calendar</text>
+<text x="30" y="276" fill="#9684AB" font-size="12">2025-11-09 → 2026-11-10 / public GitHub contribution calendar</text>
 <text x="977" y="276" fill="#9684AB" font-size="12">LESS</text>
 <circle cx="1030" cy="272" r="5" fill="#241C30"/>
 <circle cx="1051" cy="272" r="5" fill="#55406F"/>
