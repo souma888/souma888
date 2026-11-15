@@ -4,33 +4,33 @@
 <rect x="1" y="1" width="1198" height="353" rx="16" fill="#100E18" stroke="#352A48"/>
 <g font-family="Segoe UI, Arial, sans-serif">
 <text x="36" y="41" fill="#C7B7FF" font-family="Consolas, monospace" font-size="12" letter-spacing="2">THE PUBLIC CODEBASE</text>
-<text x="1164" y="41" text-anchor="end" fill="#9684AB" font-size="12">UPDATED 14 NOV 2026 / UTC</text>
+<text x="1164" y="41" text-anchor="end" fill="#9684AB" font-size="12">UPDATED 15 NOV 2026 / UTC</text>
 <text x="36" y="113" fill="#F4F0FF" font-size="42" font-weight="600">08</text>
 <text x="36" y="142" fill="#9684AB" font-size="12" letter-spacing="1.5">PUBLIC REPOSITORIES</text>
 <text x="412" y="113" fill="#F4F0FF" font-size="42" font-weight="600">07</text>
 <text x="412" y="142" fill="#9684AB" font-size="12" letter-spacing="1.5">LANGUAGES</text>
-<text x="788" y="113" fill="#F4F0FF" font-size="42" font-weight="600">3041</text>
+<text x="788" y="113" fill="#F4F0FF" font-size="42" font-weight="600">3445</text>
 <text x="788" y="142" fill="#9684AB" font-size="12" letter-spacing="1.5">KiB OF PUBLIC CODE</text>
 <path d="M36 169H1164" stroke="#352A48"/>
 <text x="36" y="207" fill="#EDE5FA" font-size="17" font-weight="600">Languages across my public code</text>
 <defs><clipPath id="bar"><rect x="36" y="229" width="1128" height="14" rx="7"/></clipPath></defs><g clip-path="url(#bar)">
-<rect x="36.000" y="229" width="362.632" height="14" fill="#C7B7FF"/>
-<rect x="398.632" y="229" width="319.952" height="14" fill="#FFAA8C"/>
-<rect x="718.584" y="229" width="249.388" height="14" fill="#6BE4C3"/>
-<rect x="967.972" y="229" width="86.284" height="14" fill="#E9A8D5"/>
-<rect x="1054.256" y="229" width="82.475" height="14" fill="#74B9EE"/>
-<rect x="1136.732" y="229" width="27.268" height="14" fill="#C5A3ED"/>
+<rect x="36.000" y="229" width="396.360" height="14" fill="#C7B7FF"/>
+<rect x="432.360" y="229" width="320.166" height="14" fill="#FFAA8C"/>
+<rect x="752.527" y="229" width="236.729" height="14" fill="#6BE4C3"/>
+<rect x="989.255" y="229" width="77.319" height="14" fill="#E9A8D5"/>
+<rect x="1066.574" y="229" width="72.817" height="14" fill="#74B9EE"/>
+<rect x="1139.391" y="229" width="24.609" height="14" fill="#C5A3ED"/>
 </g>
 <circle cx="41" cy="274" r="5" fill="#C7B7FF"/>
-<text x="56" y="279" fill="#BBAECF" font-size="14">Python <tspan fill="#9684AB">32.1%</tspan></text>
+<text x="56" y="279" fill="#BBAECF" font-size="14">JavaScript <tspan fill="#9684AB">35.1%</tspan></text>
 <circle cx="417" cy="274" r="5" fill="#FFAA8C"/>
-<text x="432" y="279" fill="#BBAECF" font-size="14">JavaScript <tspan fill="#9684AB">28.4%</tspan></text>
+<text x="432" y="279" fill="#BBAECF" font-size="14">Python <tspan fill="#9684AB">28.4%</tspan></text>
 <circle cx="793" cy="274" r="5" fill="#6BE4C3"/>
-<text x="808" y="279" fill="#BBAECF" font-size="14">TypeScript <tspan fill="#9684AB">22.1%</tspan></text>
+<text x="808" y="279" fill="#BBAECF" font-size="14">TypeScript <tspan fill="#9684AB">21.0%</tspan></text>
 <circle cx="41" cy="308" r="5" fill="#E9A8D5"/>
-<text x="56" y="313" fill="#BBAECF" font-size="14">CSS <tspan fill="#9684AB">7.6%</tspan></text>
+<text x="56" y="313" fill="#BBAECF" font-size="14">CSS <tspan fill="#9684AB">6.9%</tspan></text>
 <circle cx="417" cy="308" r="5" fill="#74B9EE"/>
-<text x="432" y="313" fill="#BBAECF" font-size="14">Jupyter Notebook <tspan fill="#9684AB">7.3%</tspan></text>
+<text x="432" y="313" fill="#BBAECF" font-size="14">Jupyter Notebook <tspan fill="#9684AB">6.5%</tspan></text>
 <circle cx="793" cy="308" r="5" fill="#C5A3ED"/>
-<text x="808" y="313" fill="#BBAECF" font-size="14">Other <tspan fill="#9684AB">2.4%</tspan></text>
+<text x="808" y="313" fill="#BBAECF" font-size="14">Other <tspan fill="#9684AB">2.2%</tspan></text>
 </g></svg>
